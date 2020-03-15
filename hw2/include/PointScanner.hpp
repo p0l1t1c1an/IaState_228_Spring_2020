@@ -23,7 +23,7 @@ class PointScanner
 
 		PointScanner(Point pts[], int len, int algo);
 
-		PointScanner(std::string inputFileName, int algo);
+		PointScanner(std::string& inputFileName, int algo);
 
 		void scan();
 

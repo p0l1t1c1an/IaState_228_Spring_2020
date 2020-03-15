@@ -18,9 +18,9 @@ class AbstractSorter
 
 		void set_comparator(int order);
 
-		Point get_median();
+		Point& get_median();
 
-		std::vector<Point> get_points();
+		std::vector<Point>& get_points();
 
 		virtual ~AbstractSorter();
 

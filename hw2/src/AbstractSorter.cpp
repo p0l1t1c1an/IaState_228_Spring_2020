@@ -24,12 +24,12 @@ void AbstractSorter::set_comparator(int order)
 }
 
 
-Point AbstractSorter::get_median()
+Point& AbstractSorter::get_median()
 {
 	return points[points.size()/2]; 
 }
 
-std::vector<Point> AbstractSorter::get_points()
+std::vector<Point>& AbstractSorter::get_points()
 {
 	return points; 
 }

@@ -44,7 +44,7 @@ PointScanner::PointScanner(Point pts[], int len, int algo)
 	}
 }
 
-PointScanner::PointScanner(std::string input_file, int algo)
+PointScanner::PointScanner(std::string& input_file, int algo)
 {
 	std::ifstream file(input_file);
 

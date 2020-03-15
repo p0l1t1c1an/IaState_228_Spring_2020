@@ -38,7 +38,6 @@ void Plot::draw(std::vector<Point>& pts, std::vector<Segment>& segs, std::string
 		plot.line(p1.get_x(), p1.get_y(), p2.get_x(), p2.get_y());
 	}
 
-	plot.flinewidth(LINE_WIDTH *1.5); 
 	plot.pencolor(50000, 5000, 5000);
 	
 	for(i = 0; i < pts.size(); ++i)
